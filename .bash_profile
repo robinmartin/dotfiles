@@ -1,7 +1,4 @@
 export PATH="$PATH:$HOME/.composer/vendor/bin:$HOME/sites/spark-installer"
-function homestead() {
-    ( cd ~/Homestead && vagrant $* )
-}
 
 function inv() {
     ( cd ~/Sites/Investoo/web-compose && make $* )
