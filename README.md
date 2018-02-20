@@ -8,3 +8,5 @@ Clone repository to home directory
 ```ln -s ~/dotfiles/.bash_profile ~/.bash_profile```
 
 ```ln -s ~/dotfiles/.aliases ~/.aliases```
+
+```ln -s ~/dotfiles/.ssh/config ~/.ssh/config```
