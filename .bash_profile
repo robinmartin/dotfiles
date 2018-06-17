@@ -1,7 +1,7 @@
 export PATH="$PATH:$HOME/.composer/vendor/bin:/Users/robinmartin/Library/Python/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin/"
 
 function inv() {
-    ( cd ~/Sites/Investoo/web-compose && make $* )
+    ( cd ~/Sites/investoo/web-compose && make $* )
 }
 
 source ~/.aliases
