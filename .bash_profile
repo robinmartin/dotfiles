@@ -1,8 +1,9 @@
-export PATH="$PATH:$HOME/.composer/vendor/bin:/Users/robinmartin/Library/Python/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin/"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 function inv() {
     ( cd ~/Sites/investoo/web-compose && make $* )
 }
+
 
 source ~/.aliases
 
@@ -11,5 +12,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-export PATH
+# PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+# export PATH
