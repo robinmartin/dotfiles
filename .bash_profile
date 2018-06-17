@@ -4,8 +4,6 @@ function inv() {
     ( cd ~/Sites/Investoo/web-compose && make $* )
 }
 
-export XDEBUG_CONFIG="idekey=VSCODE"
-
 source ~/.aliases
 
 export NVM_DIR="$HOME/.nvm"
